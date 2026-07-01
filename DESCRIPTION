@@ -1,0 +1,29 @@
+Package: BooteJTKr
+Type: Package
+Title: Bootstrapped Empirical JTK_CYCLE for Rhythm Detection
+Version: 0.1.0
+Authors@R: person("Vadim", "Vasilyev", role = c("aut", "cre"),
+                  email = "you@example.com")
+Description: A pure-R reimplementation of BooteJTK, a bootstrapped expansion of
+    the empirical JTK_CYCLE (eJTK) method for detecting rhythmic signals in
+    time-series data. Time series are parametrically bootstrapped from
+    per-time-point means and standard deviations; each resampled ordering is
+    matched against a bank of reference waveforms via Kendall's tau-b, and the
+    bootstrap-weighted distributions of tau, phase, period and nadir are
+    summarised. P-values are assigned from a gamma fit to a Gaussian null and an
+    empirical null. The method is described in Hutchison et al. (2015)
+    <doi:10.1371/journal.pcbi.1004094> and the BooteJTK preprint. The core
+    engine uses only base R; an optional limma/voom + vash variance-shrinkage
+    backend is provided but not required.
+License: MIT + file LICENSE
+URL: https://github.com/VadimVasilyev1994/BooteJTKr
+BugReports: https://github.com/VadimVasilyev1994/BooteJTKr/issues
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports: stats, utils
+Suggests: limma, vashr, testthat (>= 3.0.0)
+RoxygenNote: 7.2.3
+NeedsCompilation: no
+Packaged: 2026-06-30 14:27:35 UTC; root
+Author: Vadim Vasilyev [aut, cre]
+Maintainer: Vadim Vasilyev <you@example.com>

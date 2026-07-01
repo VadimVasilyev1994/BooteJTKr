@@ -1,0 +1,30 @@
+# Generated manually (roxygen2 unavailable in build env).
+# Regenerate with devtools::document() where roxygen2 is installed.
+
+export(boote_jtk)
+export(boote_jtk_engine)
+export(calc_p)
+export(circ_mean)
+export(circ_std)
+export(eBayes)
+export(emp_p)
+export(farctanh)
+export(gamma_fit)
+export(gamma_sf)
+export(generate_base_reference)
+export(get_data2)
+export(get_data_multi)
+export(get_stat_probs)
+export(get_waveform_list)
+export(kendall_tau)
+export(make_references)
+export(order_probs)
+export(read_in)
+export(read_in_list)
+export(run_booteJTK)
+export(series_stats)
+export(variance_limma_vash)
+
+importFrom(stats, cor, rnorm, dgamma, pgamma, optim, p.adjust, var,
+           median, sd, runif)
+importFrom(utils, write.table)

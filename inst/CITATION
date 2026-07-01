@@ -1,0 +1,23 @@
+citHeader("BooteJTKr is a pure-R port of BooteJTK. Please cite the original method:")
+
+bibentry(
+  bibtype = "Article",
+  title   = "Improved statistical methods enable greater sensitivity in rhythm detection for genome-wide data",
+  author  = c(person("Alan L.", "Hutchison"), person("Mark", "Maienschein-Cline"),
+              person("Andrew H.", "Chiang")),
+  journal = "PLoS Computational Biology",
+  year    = "2015",
+  volume  = "11",
+  number  = "3",
+  pages   = "e1004094",
+  doi     = "10.1371/journal.pcbi.1004094"
+)
+
+bibentry(
+  bibtype = "Article",
+  title   = "BooteJTK: Improved Rhythm Detection via Bootstrapping",
+  author  = person("Alan L.", "Hutchison"),
+  journal = "bioRxiv",
+  year    = "2016",
+  doi     = "10.1101/073064"
+)
